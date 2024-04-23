@@ -8,4 +8,7 @@ document.body.appendChild(_div)
 //console.log(_tomb);
 
 for (t of _tomb) {
+  const _div = document.createElement('div')
+  _div.innerHTML += t
+  document.body.appendChild(_div)
 }

@@ -12,3 +12,18 @@ for (t of _tomb) {
   _div.innerHTML += t
   document.body.appendChild(_div)
 }
+
+let kep_lista = ['cica_kep.jpg', 'delfin_kep.webp', 'kutya_kep.png'];
+
+for(el of kep_lista)
+{
+  const kep_elem = document.createElement('img');
+  kep_elem.src = "img/"+el
+  kep_elem.width = "200"
+  console.log(kep_elem)
+  document.body.appendChild(kep_elem)
+
+  kep_elem.addEventListener('click', ()=>{
+    window.open('cica_kep.html')
+  });
+}

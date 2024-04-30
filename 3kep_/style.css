@@ -29,6 +29,9 @@ h2 {
 div {
   padding: 50px;
 }
+body{
+  background-color: gray;
+}
 .containerDiv{
   width: 400px;
   height: 400px;
